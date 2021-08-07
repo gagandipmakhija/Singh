@@ -1,0 +1,69 @@
+li{
+    list-style:none;
+    display:inline;
+    padding: 10px;
+    cursor: pointer;
+    color:gray;
+}
+li:hover{
+    color:black;
+    text-decoration: underline blue;
+}
+.one{
+    padding: 0 130px;
+}
+.two{
+    border:0 solid white;
+    border-radius:30px;
+    background:pink;
+    color:blue;
+    height:50px;
+    width:150px;
+    cursor:pointer;
+
+}
+main{
+    padding: 100px 300px;
+}
+h1{
+    font-size: 50px;
+    line-height: 30px;
+    cursor: pointer;
+}
+aside{
+    float: right;
+    cursor: pointer;
+}
+aside:hover{
+    transform: skew(10deg);
+}
+.three{
+    border:0 solid white;
+    border-radius:30px;
+    background: blue;
+    color: white;
+    height:50px;
+    width:150px;
+    cursor:pointer;
+}
+p{
+    cursor:pointer;
+}
+.four{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 300px;
+    cursor:pointer;
+}
+.five{
+    border-radius: 20px;
+}
+i{
+    font-size: 20px;
+}
+i:hover{
+    font-size: 40px;
+    background:blue;
+    color: white;
+    border-radius: 20px;
+}
